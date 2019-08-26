@@ -70,6 +70,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityListe
         unregisterReceiver(receiver);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
 
 
